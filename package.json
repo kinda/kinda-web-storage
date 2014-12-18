@@ -1,0 +1,18 @@
+{
+  "name": "kinda-web-storage",
+  "version": "0.1.0",
+  "description": "...",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kinda/kinda-web-storage"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Vila <mvila@3base.com>",
+  "license": "MIT",
+  "dependencies": {
+    "kinda-object": "https://github.com/kinda/kinda-object/tarball/master"
+  }
+}
