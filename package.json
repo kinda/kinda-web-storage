@@ -13,6 +13,6 @@
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
   "dependencies": {
-    "kinda-object": "https://github.com/kinda/kinda-object/tarball/master"
+    "kinda-object": "kinda/kinda-object"
   }
 }
