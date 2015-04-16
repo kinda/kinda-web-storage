@@ -22,6 +22,11 @@ var KindaWebStorage = KindaObject.extend('KindaWebStorage', function() {
     sessionStorage.removeItem(key);
     localStorage.removeItem(key);
   };
+
+  this.isPersistent = function(key) {
+    var val = localStorage.getItem(key);
+    return val != null;
+  };
 });
 
 module.exports = KindaWebStorage;
